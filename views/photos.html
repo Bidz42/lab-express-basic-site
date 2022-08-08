@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Naruto <span>Uzumaki</span></h2>
+            <ul>
+                <li><a href="http://localhost:3000/">Home</a></li>
+                <li><a href="http://localhost:3000/about">About</a></li>
+                <li><a href="http://localhost:3000/works">Works</a></li>
+                <li><a href="http://localhost:3000/photos">Photos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="growth.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="hokage.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="jinchuriki.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="kurama.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="sensei.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="team7.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="tobi.jpg" style="width:100%">
+          </div>
+        
+        </div>
+        <br>
+        
+        
+        <script>
+        
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; 
+            }
+            slideIndex++;
+            if (slideIndex> slides.length) {slideIndex = 1} 
+            slides[slideIndex-1].style.display = "block"; 
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+    
+</body>
+</html>

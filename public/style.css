@@ -1,0 +1,99 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Mouse Memoirs', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+.logo {
+    color: yellow;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    cursor: pointer;
+    text-shadow: 2px 2px orange;
+}
+span{
+    color: orange;
+    text-shadow: 2px 2px yellow;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+color: orange;
+}
+
+.second{
+    background-color: black;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: yellow;
+    text-align: center;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+.bg {
+    background-color: black;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    border-top: 0px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.info {
+    background-color: black;
+    list-style-type: none;
+    padding: 10px 10px;
+    font-size: 40px;
+    color: orange;
+    text-shadow: 1px 1px yellow;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.third{
+    color: orange;
+    text-shadow: 1px 1px yellow;
+    background-color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.head {
+    color: yellow;
+    text-shadow: 1px 1px orange;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
